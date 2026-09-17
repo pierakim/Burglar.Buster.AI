@@ -1,0 +1,21 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+    "Foundry__Endpoint": "https://<your-foundry-resource>.services.ai.azure.com",
+    "Foundry__DeploymentName": "<your-tool-capable-chat-deployment-name>",
+    "Foundry__ApiKey": "",
+
+    "Database__ConnectionString": "Data Source=burglarbuster.db",
+
+    "Agent__MaxTurns": "6",
+    "Agent__MaxToolCalls": "8",
+    "Agent__MaxDetailedCandidates": "3",
+    "Agent__UpstreamTimeoutSeconds": "30",
+    "Agent__OverallTimeoutSeconds": "60",
+
+    "Logging__DebugVerbosity": "false"
+  }
+}
