@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Lets Infrastructure reuse internal matching helpers (e.g. name normalization
+         for query patterns) and lets tests exercise them directly. -->
+    <InternalsVisibleTo Include="BurglarBuster.Infrastructure" />
+    <InternalsVisibleTo Include="BurglarBuster.Tests" />
+  </ItemGroup>
+
+</Project>

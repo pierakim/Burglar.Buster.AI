@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BurglarBuster.Core/BurglarBuster.Core.csproj" />
+    <Project Path="src/BurglarBuster.Functions/BurglarBuster.Functions.csproj" />
+    <Project Path="src/BurglarBuster.Infrastructure/BurglarBuster.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BurglarBuster.IntegrationTests/BurglarBuster.IntegrationTests.csproj" />
+    <Project Path="tests/BurglarBuster.Tests/BurglarBuster.Tests.csproj" />
+  </Folder>
+</Solution>
